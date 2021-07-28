@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.container{margin:60px auto;}
+.container h2{text-align:center;}
+form{margin:40px 0 0 340px;}
+form p{margin-bottom:10px;}
+form a{ color:#ff7702;}
+
+label{display:block; float:left; height:48px; line-height:48px; color:#F00; text-indent:10px;}
+label.one{width:90px; height:48px; text-align:right; color:#000;}
+
+input{float:left;font-size:16px; font-family:"微软雅黑"; color:#666;}
+#telphone,#password,#confirm_password,.submit,#agent{border:1px solid #ccc; width:300px; height:46px; text-indent:10px;}
+
+.identifying_code{height:46px; width:180px; _line-height:46px; text-indent:10px;}
+.get_code{height:48px; width:110px; margin-left:10px; border:1px solid #ccc; cursor:pointer;}
+
+.agreement{margin-left:90px; height:30px; line-height:30px;font-size:12px;}
+.agreement input{display:block; line-height:30px; height:12px; margin:8px 8px 0 5px; border:none; width:12px; background:url(../img/checkbox.png) no-repeat; }
+
+.submit{margin-left:90px; background:#F93; font-size:20px; letter-spacing:4px; color:#fff; cursor:pointer;}
+
+p.last{margin-left:310px; font-size:16px;}
+p.last input{ cursor:pointer;}

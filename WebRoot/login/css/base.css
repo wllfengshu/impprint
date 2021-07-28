@@ -1,0 +1,90 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+a{text-decoration:none; cursor:pointer;}
+li{list-style:none;}
+img{border:none;}
+html,body{ font-size:16px; font-family:"微软雅黑"; overflow-x:hidden;}
+
+.wrapper{width:1120px; margin:0 auto;}
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:"."; display:block; clear:both; font-size:0; overflow:hidden; height:0;}
+.clearfix{zoom:1;}
+.red{color:#f93;}
+
+.mt{ margin-top:10px;}
+.mr{ margin-right:10px;}
+.mb{ margin-bottom:10px;}
+.ml{ margin-left:10px;}
+
+
+/*----header-----*/
+
+.header{height:35px; line-height:35px; background:#5a84d1; color:#fff; font-size:14px;}
+.header a{color:#fff;}
+
+.weixin{position:relative; display:block; width:120px; height:38px; text-align:center;}
+.wx{display:inline-block; width:35px; height:35px; background:url(../img/weixinhui.png) no-repeat;}
+.wx:hover{background:url(../img/weixin.png) no-repeat;}
+.erweima{position:absolute; top:35px; left:0; display:block; width:120px; height:120px; border:1px solid #999; z-index:100;}
+
+.header .right #time{margin-left:20px;}
+
+.top{height:74px; width:1140px; margin:10px auto}
+/*-------logo-------*/
+.logo{height:74px; margin-right:15px;}
+.logo a{display:block;}
+.slogo{width:170px; height:60px; margin-top:10px; padding-left:10px; overflow:hidden; border-left:1px solid #ccc; font-size:20px;}
+
+
+/*-------nav-------*/
+.nav{float:right; height:30px; margin-top:30px; line-height:30px;}
+.nav li{float:left; position:relative; width:115px; text-align:center;}
+.nav li a{font-size:20px; color:#3a3a3a;}
+.nav li:hover > a{color:#28a7e1}
+.nav li:hover > ul{visibility:visible; opacity:1; }
+.nav li a {text-decoration:none; display:inline-block;
+	-webkit-transition:color 0.2s linear, background 0.2s linear;
+	-moz-transition:color 0.2s linear, background 0.2s linear;
+	-o-transition:color 0.2s linear, background 0.2s linear;
+	transition:color 0.2s linear, background 0.2s linear; }
+.subnav {visibility:hidden; opacity:0; position:absolute; top:30px; left:0; z-index:100; width:115px; text-align:center; background:rgba(0,0,0,0.4); 
+    -webkit-transition:opacity 0.2s linear, visibility 0.2s linear; 
+    -moz-transition:opacity 0.2s linear, visibility 0.2s linear; 
+    -o-transition:opacity 0.2s linear, visibility 0.2s linear; 
+    transition:opacity 0.2s linear, visibility 0.2s linear; }
+.subnav li{clear:both; width:100%; border:0 none;}
+.subnav li a{display:inline-block; color:#fff;}
+.subnav li:hover > a{color:#80eef5;}
+
+
+/*-------footer-----*/
+.footer{background:#eee;  padding-bottom:50px;}
+.footer a{color:#000;}
+.list1{margin:20px 15px 40px;}
+.list1 li{height:40px; line-height:40px;}
+.list1 a.first:hover{background:url(img/redIcon.png) 0 6px no-repeat;}
+
+.list1 a.first{/*float:left;*/margin-right:23px; text-indent:15px; font-weight:bold; color:#111;}
+
+.sublist li{float:left;/**/ margin-right:11px;}
+.sublist li a{color:#111;}
+
+.par{text-align:center;}
+.par a{padding:0 10px;}
+
+.footer div.right{margin:20px 25px 40px 0; }
+
+
+
+
+
+
+/*kefu*/
+#sidekf{background:url(../img/222.png) no-repeat left bottom;width:225px; height:200px; position:fixed; _position:absolute; right:-139px;top:40px;_top:expression(documentElement.scrollTop+40);z-index:9;}
+#sidekf .lnk{ float:left;width:225px;}
+#sidekf .ovh{ float:right;width:35px; height:100px;}
+#sidekf a{display:block;width:128px; margin-left:97px;}
+.sidekf_qq1{height:33px; margin-top:35px;}
+.sidekf_qq2{height:36px; margin-top:3px;}
+.sidekf_qq3{height:36px; margin-top:3px;}
